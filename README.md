@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Priyank Patel — Portfolio (Vite)
 
 Same design, same CSS, broken into small reusable components.
@@ -53,3 +54,6 @@ src/
 - All Tailwind classes, inline `style={{...}}` objects, and color/spacing values are copied verbatim from the original single-file version — nothing was restyled.
 - Tailwind is configured via `tailwind.config.js` + `postcss.config.js` (standard Vite + Tailwind setup), since the original relied on an injected global config.
 - The `material-symbols-outlined` font, Google Fonts imports, `line-clamp-2`, and `scroll-behavior: smooth` rules from the original inline `<style>` tag now live in `src/index.css`.
+=======
+# Priyank-Portfolio
+>>>>>>> bd0bc04f0112ae62c095e9cb07c5b254d0dc31e8
