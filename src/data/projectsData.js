@@ -20,7 +20,7 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    categories: ["reactjs","javascript", "rest-api"],
+    categories: ["reactjs", "javascript", "rest-api"],
     accentColor: "#8B5CF6",
     accentBg: "rgba(139,92,246,0.1)",
     image: image.project2,
@@ -54,6 +54,48 @@ export const PROJECTS = [
     projectLink: 'https://apex-pi-orpin.vercel.app/',
     ctaColor: "#8B5CF6",
   },
+  {
+    id: 4,
+    categories: ["wordpress"],
+    accentColor: "#F59E0B",
+    accentBg: "rgba(245,158,11,0.1)",
+    image: image.project4,
+    alt: "Alpha Engineering Works Website",
+    tags: [
+      {
+        label: "Wordpress",
+        color: "#F59E0B",
+        bg: "rgba(245,158,11,0.1)",
+        border: "rgba(245,158,11,0.2)"
+      }
+    ],
+    title: "Alpha Engineering Works",
+    desc: "Professional industrial engineering website showcasing advanced valve manufacturing solutions, turnkey engineering services, industrial applications, and customized flow control systems.",
+    cta: "View Live Site",
+    projectLink: "https://alphaenggworks.com/",
+    ctaColor: "#F59E0B",
+  },
+  {
+    id: 5,
+    categories: ["wordpress"],
+    accentColor: "#06B6D4",
+    accentBg: "rgba(6,182,212,0.1)",
+    image: image.project4,
+    alt: "MyWaterRank Platform",
+    tags: [
+      {
+        label: "Wordpress",
+        color: "#06B6D4",
+        bg: "rgba(6,182,212,0.1)",
+        border: "rgba(6,182,212,0.2)"
+      }
+    ],
+    title: "MyWaterRank",
+    desc: "Developed an AI-powered water quality monitoring platform featuring real-time analytics, IoT sensor integration, predictive insights, and industry-specific solutions for sustainable water management.",
+    cta: "View Live Site",
+    projectLink: "https://mywaterrank.com/",
+    ctaColor: "#06B6D4",
+  }
 ];
 
 export const FILTER_OPTIONS = [
